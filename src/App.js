@@ -31,7 +31,6 @@ const generateSignature = () => {
 };
 
 function App() {
-  console.log(process.env);
   // setup your signature endpoint here: https://github.com/zoom/websdk-sample-signature-node.js
   console.log(process.env);
   const apiKey = process.env.REACT_APP_API_KEY;
