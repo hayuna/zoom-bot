@@ -76,9 +76,7 @@ function App() {
   return (
     <div className="App">
       <main>
-        <h1>Zoom WebSDK Sample React</h1>
-
-        <button onClick={getSignature}>Join Meeting</button>
+        <button onClick={getSignature}>Create Meeting</button>
       </main>
     </div>
   );
