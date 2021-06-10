@@ -24,9 +24,9 @@ const onMeetingStatus = (e) => {
   console.log("onMeetingStatus", e);
 };
 
-const mute = (userId) => {
-  zoom.mute({ userId, mute: true });
-};
+// const mute = (userId) => {
+//   zoom.mute({ userId, mute: true });
+// };
 
 zoom.inMeetingServiceListener("onUserJoin", onUserJoin);
 zoom.inMeetingServiceListener("onUserLeave", onUserLeave);
